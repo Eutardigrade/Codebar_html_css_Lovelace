@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5em;
+}
+.myPic img{
+	height:60px;
+	padding-top: 10px;
+	padding-right:15px;
+}
+.myPic {
+	display: inline;
+}
+.title{
+	display: inline-block;
+}
+header{
+	text-align: center;
+	border-bottom: 1px solid #e8e8ee;
+	background-color:#fffafa;
+}
+h1{
+	margin:0px;
+}
+.container {
+	min-width: 600px;
+	margin: 10px;
+}
+.leftBox{
+	display:inline-block;
+	width: 30%;
+	margin-top:50px;
+	margin-left:10px;
+	padding: 25px 30px 20px;
+	line-height: 20px;
+	background-color:#fffafa;
+	min-width: 300px;
+	max-width: 320px;
+	border: 1px solid #e8e8ee;
+	border-radius:2%;
+	box-shadow: 0 1px 1px 1px rgba(237,235,232,.4);	
+}
+.leftBox strong {
+	margin-left:30px;
+	font-size:18px;
+	color:darkslateblue;
+}
+ul{
+	list-style: none;
+	padding-left:10px;
+	margin-left:15px;
+}
+ul a {
+	text-decoration: none;
+	border-left: 7px solid #cd853f;
+	padding-left: 10px;
+	color:#696969;
+}
+#ulOnline li{
+	padding: 10px;
+	border-bottom: 1px solid #c6c6c6;
+	line-height: 20px;
+	margin-right:70px;
+	width: 200px;
+}
+.rightBox {
+	display: inline-block;
+	width: 55%;
+	vertical-align: top;
+	margin-top:50px;
+	margin-left:70px;
+}
+#blueFont {
+	color: #4169e1;
+}
+#quote {
+	margin: 10px 30px;
+	background-color:#fffafa;
+	border: 1px solid #e8e8ee;
+	border-radius:2%;
+	padding:15px;
+	color:#696969;
+}
+#poem {
+	color: #696969;
+	font-style: italic;
+}
+#gdoodle {
+	text-align: center;
+	margin-top: 90px;
+	margin-bottom:70px;
+}
+footer {
+	background-color: chocolate;
+	color: aliceblue;
+	height: 60px;
+	margin-top:20px;
+	padding-top:10px;
+	padding-left:30px;	
+}
+footer a{
+	margin:0px;
+	padding:0px;
+}
